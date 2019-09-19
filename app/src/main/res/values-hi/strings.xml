@@ -4,4 +4,11 @@
     <string name="hello_message">Kese ho!</string>
     <string name="button">Button</string>
     <string name="ButtonText">I\’m a button</string>
+
+
+    <string name="line1">Look at my GUI</string>
+    <string name="button1">Click here</string>
+    <string name="box1">Check this out!</string>
+    <string name="switchplay">Switch on/off</string>
+    <string name="line2">Type here</string>
 </resources>
