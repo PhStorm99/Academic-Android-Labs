@@ -5,11 +5,19 @@
     <string name="ButtonText">I\’m a button</string>
     
     
-    <string name="line1">Look at my GUI</string>
-    <string name="button1">Click here</string>
-    <string name="box1">Check this out!</string>
-    <string name="switchplay">Switch on/off</string>
-    <string name="line2">Type here</string>
+    <string name="line1">Enter your email address:</string>
+    <string name="line2">Type email here</string>
+    <string name="line3">Type your password:</string>
+    <string name="line4"></string>
+    <string name="button1">LOGIN</string>
 
+
+    <string name="line5">Your profile </string>
+    <string name="line6">Your name: </string>
+    <string name="line7">Enter your name </string>
+    <string name="line8">Your email: </string>
+    <string name="line9">Enter your email</string>
+    <string name="line10">Your picture: </string>
+    <string name="line11">Click the button above to take a picture</string>
 
 </resources>
