@@ -6,9 +6,20 @@
     <string name="ButtonText">I\’m a button</string>
 
 
-    <string name="line1">Look at my GUI</string>
-    <string name="button1">Click here</string>
-    <string name="box1">Check this out!</string>
-    <string name="switchplay">Switch on/off</string>
-    <string name="line2">Type here</string>
+    <string name="line1">aapka email likhe:</string>
+    <string name="line2">yaha type kare</string>
+    <string name="line3">aapka password likhe:</string>
+    <string name="line4"></string>
+    <string name="button1">LOGIN kare</string>
+
+
+    <string name="line5">appki pehchan </string>
+    <string name="line6">Aapka naam </string>
+    <string name="line7">aapka naam likhe </string>
+    <string name="line8">Aapka email </string>
+    <string name="line9">aapka email likhe</string>
+    <string name="line10">Aapka chitra</string>
+    <string name="line11">chitra lene ke liye upar button dabaye</string>
+
+
 </resources>
