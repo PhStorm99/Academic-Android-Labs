@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingVertical="10dp"
+    android:paddingLeft="15dp"
+
+    android:paddingRight="60dp">
+
+
+<View android:id="@+id/senderAvatar"
+    android:layout_width="34dp"
+    android:layout_height="34dp"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/row_send"
+    android:scaleType="centerInside"/>
+
+<TextView
+    android:id="@+id/senderName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/senderAvatar"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/senderAvatar"
+    android:paddingBottom="4dp"
+    android:textColor="@color/colorPrimary"/>
+
+<TextView
+
+    android:id="@+id/textViewMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/senderName"
+    android:layout_alignLeft="@+id/senderName"
+    android:elevation="2dp"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
+    android:text="How are you doing? This is a long message that should probably wrap."
+    android:textSize="18dp"/>
+
+</RelativeLayout>

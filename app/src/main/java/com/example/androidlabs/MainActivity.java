@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 profilePage.putExtra("EmailFormLastPage", typeField.getText().toString());
 
                 //Now make the transition:
-                MainActivity.this.startActivity(profilePage);
+                MainActivity.this.startActivityForResult(profilePage,345);
             }
         });
 

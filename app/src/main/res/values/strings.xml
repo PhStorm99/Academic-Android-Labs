@@ -10,6 +10,7 @@
     <string name="line3">Type your password:</string>
     <string name="line4"></string>
     <string name="button1">LOGIN</string>
+    <string name="button2">Go to chat</string>
 
 
     <string name="line5">Your profile </string>
@@ -19,5 +20,10 @@
     <string name="line9">Enter your email</string>
     <string name="line10">Your picture: </string>
     <string name="line11">Click the button above to take a picture</string>
+
+
+    <string name="SendText">SEND</string>
+    <string name="ChatHint">Type here</string>
+    <string name="ReceiveText">RECEIVE</string>
 
 </resources>
