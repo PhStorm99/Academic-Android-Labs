@@ -12,6 +12,7 @@
     <string name="line4"></string>
     <string name="button1">LOGIN kare</string>
 
+    <string name="button2">chat par jaye</string>
 
     <string name="line5">appki pehchan </string>
     <string name="line6">Aapka naam </string>
@@ -19,7 +20,13 @@
     <string name="line8">Aapka email </string>
     <string name="line9">aapka email likhe</string>
     <string name="line10">Aapka chitra</string>
-    <string name="line11">chitra lene ke liye upar button dabaye</string>
+    <string name="line11">diye gaye button par click kare</string>
+
+    <string name="SendText">send kare</string>
+    <string name="ChatHint">idhar likhiye</string>
+    <string name="ReceiveText">receive kare</string>
+
+
 
 
 </resources>
