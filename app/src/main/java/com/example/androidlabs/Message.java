@@ -3,13 +3,14 @@ package com.example.androidlabs;
 public class Message {
     public String message;
     public boolean isSend;
+    private long id;
 
     public Message(String message, boolean isSend) {
         this.message = message;
         this.isSend = isSend;
     }
 
-    public Message() {
+    public Message() { this("unknown",false);
     }
 
     public String getMessage() {
@@ -25,6 +26,10 @@ public class Message {
     }
 
     public void setSend(boolean send) {
-        isSend = send;
+        this.isSend = send;
     }
+
+    public long getId() {return id;}
+
+    public void setId(long id) {this.id=id;}
 }

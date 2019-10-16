@@ -18,7 +18,7 @@ public class ChatAdapter extends BaseAdapter {
     public ChatAdapter(List<Message> messageModels, Context context) {
         this.messageModels = messageModels;
         this.context = context;
-        this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        this.inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
