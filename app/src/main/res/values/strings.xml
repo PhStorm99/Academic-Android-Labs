@@ -3,15 +3,15 @@
     <string name="hello_message">Hello World!</string>
     <string name="button">Button</string>
     <string name="ButtonText">I\’m a button</string>
-    
-    
+
+
     <string name="line1">Enter your email address:</string>
     <string name="line2">Type email here</string>
     <string name="line3">Type your password:</string>
     <string name="line4"></string>
     <string name="button1">LOGIN</string>
     <string name="button2">Go to chat</string>
-
+    <string name="button3">Go to Weather Forecast</string>
 
     <string name="line5">Your profile </string>
     <string name="line6">Your name: </string>
@@ -25,5 +25,11 @@
     <string name="SendText">SEND</string>
     <string name="ChatHint">Type here</string>
     <string name="ReceiveText">RECEIVE</string>
+
+    <string name="currentTemp">Current Temperature</string>
+    <string name="minTemp">Minimum Temperature</string>
+    <string name="maxTemp">Maximum Temperature</string>
+    <string name="uvRating">UV</string>
+
 
 </resources>
