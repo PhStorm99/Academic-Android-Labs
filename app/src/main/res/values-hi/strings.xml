@@ -11,8 +11,9 @@
     <string name="line3">aapka password likhe:</string>
     <string name="line4"></string>
     <string name="button1">LOGIN kare</string>
-
     <string name="button2">chat par jaye</string>
+    <string name="button3">weather par jaye</string>
+
 
     <string name="line5">appki pehchan </string>
     <string name="line6">Aapka naam </string>
@@ -26,6 +27,10 @@
     <string name="ChatHint">idhar likhiye</string>
     <string name="ReceiveText">receive kare</string>
 
+    <string name="currentTemp">Abi ka tapman</string>
+    <string name="minTemp">Samanay tapman</string>
+    <string name="maxTemp">Sabse jyada tapman</string>
+    <string name="uvRating">UV</string>
 
 
 

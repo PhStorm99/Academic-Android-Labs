@@ -34,7 +34,6 @@ public class ProfileActivity extends AppCompatActivity{
         //Put the string that was sent from FirstActivity into the edit text
         enterText.setText(previousTypedEmail);
 
-
         mImageButton = (ImageButton)findViewById(R.id.picture);
         mImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,20 +53,22 @@ public class ProfileActivity extends AppCompatActivity{
 
                 }});
 
+        Button goToWeatherBtn = (Button)findViewById(R.id.WeatherBtn);
+        goToWeatherBtn.setOnClickListener(c -> {
+            Intent goToMenuPage = new Intent(ProfileActivity.this, WeatherForecast.class);
+
+            startActivityForResult(goToMenuPage, 234);
+
+        });
+
             Log.d(ACTIVITY_NAME,"In function: OnCreate()");
-
-
     }
-
-
     private void dispatchTakePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
         }
     }
-
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
